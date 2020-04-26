@@ -1,0 +1,98 @@
+html,
+body {
+    margin: 0;
+}
+
+.cst-top-app-bar {
+    background: linear-gradient(to right, #000000, #EB5757);
+}
+
+.cst-bottom-bar {
+    padding: 1px 10px;
+}
+
+.main-block {
+    position: relative;
+    top: 100px;
+}
+
+.cst-mdc-cards {
+    padding: 10px 20px;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.card-img-bdr {
+    border: 10px solid #471a1a;
+}
+
+.who-got-jack-block {
+    margin: 50px auto;
+}
+
+.cst-bottom-bar {
+    background: linear-gradient(to right, #000000, #EB5757);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.cst-bottom-bar p {
+    margin: 10px 5px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+        border: 10px solid #0091EA;
+    }
+    25% {
+        opacity: 1;
+        border: 10px solid #00BFA5;
+    }
+    50% {
+        opacity: 1;
+        border: 10px solid #00C853;
+    }
+    75% {
+        opacity: 1;
+        border: 10px solid #AEEA00;
+    }
+    80% {
+        opacity: 1;
+        border: 10px solid #FFD600;
+    }
+    90% {
+        opacity: 1;
+        border: 10px solid #FF6D00;   
+    }
+    100% {
+        opacity: 1;
+        border: 10px solid #DD2C00;   
+    }
+}
+
+.this-is-jack {
+    animation: fadeIn 0.75s infinite alternate;
+    padding: 10px;
+    border-radius: 10px;;
+}
+
+@media screen and (max-width: 1024px) {
+    .card-image {
+        height: 100px;
+        width: 100px;
+        border: 10px solid #471a1a;
+        border-radius: 5px;
+    }
+}
+
+/* Modifying the default classes */
+.mdc-button--raised:not(:disabled),
+.mdc-button--unelevated:not(:disabled) {
+    background: linear-gradient(to right, #000000, #EB5757);
+}

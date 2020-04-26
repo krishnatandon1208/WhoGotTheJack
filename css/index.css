@@ -108,6 +108,7 @@ body {
 }
 
 .this-is-jack {
+    -webkit-animation:fadeIn 0.75s infinite alternate;;
     animation: fadeIn 0.75s infinite alternate;
     padding: 10px;
     border-radius: 10px;;

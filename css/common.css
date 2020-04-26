@@ -1,0 +1,410 @@
+/*  Padding classes */
+.p-0 {
+	padding: 0 !important;
+}
+
+.pl-0 {
+	padding-left: 0 !important;
+}
+
+.pr-0 {
+	padding-left: 0 !important;
+}
+
+.pt-0 {
+	padding-top: 0 !important;
+}
+
+.pb-0 {
+	padding-bottom: 0 !important;
+}
+
+/*  Margin classes */
+.m0 {
+	margin: 0 !important;
+}
+
+.ml-0 {
+	margin-left: 0 !important;
+}
+
+.mr-0 {
+	margin-left: 0 !important;
+}
+
+.mt-0 {
+	margin-top: 0 !important;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+/*  Color classes */
+.clr-purple {
+	color : #9D52BA;
+}
+
+.clr-blue {
+	color : #2095E2;
+}
+
+.clr-dark-blue {
+	/* color: #0A6287; */
+	color: #003c8f;
+}
+
+.clr-cyan {
+	color : #49DA88;
+}
+
+.clr-amber {
+	color : #FDB92B;
+}
+
+.clr-red {
+	color : #EA4B35;
+}
+
+.clr-white {
+	color: #FFFFFF;
+}
+
+/*  Background classes */
+.bg-dark-blue {
+	background-color: #005578;
+}
+
+.bg-purple {
+	background-color: #9D52BA;
+}
+
+.bg-blue {
+	/* background-color: #2095E2; */
+	background-color: #003c8f;
+}
+
+.bg-light-blue {
+	background-color: #EBF0F5;
+}
+
+.bg-cyan {
+	background-color: #49DA88;
+}
+
+.bg-amber {
+	background-color: #FDB92B;
+}
+
+.bg-orange {
+	background-color: #EB780A;
+}
+
+
+.bg-red {
+	background-color: #EA4B35;
+}
+
+.bg-grey {
+	background-color: #F7F7F7;
+}
+
+.bg-light-grey {
+	background-color: #D0D3DA;
+}
+
+.bg-grey-fa {
+	background-color: #FAF7F7;
+}
+
+.bg-dark-grey {
+	background-color: #949EAA !important;
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+/*  Border classes */ 
+/* NOTE : .bdr classes will be 1px solid. If any other border is required, it will be available separately and NOT AS ".bdr-color" class name. */
+.bdr-purple {
+	border : 1px solid #9D52BA;
+}
+
+.bdr-blue {
+	border : 1px solid #2095E2;
+}
+
+.bdr-light-blue {
+	border : 1px solid #CDD9E1;
+}
+
+.bdr-cyan {
+	border : 1px solid #49DA88;
+}
+
+.bdr-amber {
+	border : 1px solid #FDB92B;
+}
+
+.bdr-red {
+	border : 1px solid #EA4B35;
+}
+
+.bdr-light-grey {
+	border: 1px solid #D0D3DA;
+}
+
+.bdr-radius-null {
+	border-radius: 0;
+}
+
+.bdr-transparent {
+	border: 1px solid transparent;
+}
+
+.bdr-none {
+	border: none;
+}
+
+/*Specific border classes*/
+.bdr-btm-grey-1 {
+	border-bottom: 1px solid #D0D3DA;
+}
+
+/*Height and width*/
+.width-50 {
+	width: 50%;
+}
+
+.width-75 {
+	width : 75%;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+/* Font */ 
+
+.f-8 { 
+	font-size: 8px;
+}
+
+.f-12 {
+	font-size: 12px;
+}
+
+.f-14 {
+	font-size: 14px;
+}
+
+.f-16 {
+	font-size: 16px;	
+}
+
+.f-18 {
+	font-size: 18px;	
+}
+
+
+/*z-index*/
+.z-0 {
+	z-index: 0;
+}
+
+.z-1{
+	z-index: 1;
+}
+
+.z-2 {
+	z-index: 2;
+}
+
+.z-3 {
+	z-index: 3;
+}
+
+.z-4 {
+	z-index: 4;
+}
+
+.z-5 {
+	z-index: 5;
+}
+
+.z-10 {
+	z-index: 10;
+}
+
+.z-100 {
+	z-index: 100;
+}
+
+.z-1000 {
+	z-index: 1000;
+}
+
+.z-9999 {
+	z-index: 9999;
+}
+
+/*align*/
+.align-center {
+	align-items: center;
+}
+
+/*justify content - jc*/
+.jc-flex-end {
+	justify-content : flex-end;
+}
+
+.jc-space-bt {
+	justify-content: space-between;
+}
+
+.jc-center {
+	justify-content: center;
+}
+
+.jc-space-evenly {
+	justify-content: space-evenly;
+}
+
+
+/* display */
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+/*Top, right, bottom, left*/
+.left-15 {
+	left: 15px;
+}
+
+/* Items in center - vertical and horizontal */
+.item-in-center {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Placeholder */
+
+::-webkit-input-placeholder  {
+	font-size: 14px;
+	line-height: 16px;
+	color: #707070;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	font-size: 14px;
+	line-height: 16px;
+	color: #707070;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	font-size: 14px;
+	line-height: 16px;
+	color: #707070;
+}
+:-moz-placeholder { /* Firefox 18- */
+	font-size: 14px;
+	line-height: 16px;
+	color: #707070;
+}
+
+/* Spacing */
+.width-224 {
+	width: 224px;
+}
+
+.content-left {
+	left: 14rem;
+}
+
+/* Buttons */
+.btn-dark-blue {
+	background: #005578;
+	color: #FFFFFF !important;
+}
+
+.btn-dark-blue:hover{
+	color: #FFFFFF !important;
+} 
+
+/* Static fields - Dropdown, inputs, span */
+.static-case {
+	height: 43px;
+}
+
+.static-case .static-text  {
+	top: 2px;
+	color: #788791;
+	z-index: 1;
+    line-height: 1;
+}
+
+.static-case .static-text-value {
+	top: 15px;
+	font-size: 12px;
+}
+
+.static-dropdown .nice-select {
+	width: 100%;
+	height: 43px;
+	border-radius: 0;
+	padding-left: 10px;
+}
+
+.static-dropdown .nice-select .list {
+	width: 100%;
+	max-height: 140px;
+    overflow: auto;
+}
+
+.input-cal-img {
+	background: url("../../Images/calendar-dark.svg");
+	background-repeat: no-repeat;
+	background-position: 98% center;
+}
+
+/* text-transform */
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+/* Text-alignment */
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* Vertical-aling */
+.va-initial {
+	vertical-align: initial;
+}
+
+@media screen and (min-width: 1367px) { 
+	.content-left {
+		left: 20rem;
+	}
+}
+

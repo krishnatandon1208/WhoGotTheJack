@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Who got the Jack?</title>
+	<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/common.css">
+	<script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+</head>
+
+<body>
+	<header class="mdc-top-app-bar cst-top-app-bar">
+		<div class="mdc-top-app-bar__row">
+			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start jc-center">
+				<span class="mdc-top-app-bar__title">Who got the Jack&#63;</span>
+			</section>
+		</div>
+	</header>
+
+	<main class="main-block">
+		<div class="d-flex jc-space-bt cst-mdc-block">
+			<div class="cst-mdc-cards" id="player1">
+				<img src="images/Mommy.png" class="card-image card-img-bdr" alt="Player 1">
+			</div>	
+			<div class="cst-mdc-cards" id="player2">
+				<img src="images/Daddy.png" class="card-image card-img-bdr" alt="Player 2">
+			</div>
+		</div>
+
+		<div class="d-flex jc-center who-got-jack-block">
+			<button class="mdc-button mdc-button--raised" onclick="GetTheJack.selectJack();">  
+				<span class="mdc-button__ripple"></span> 🕵🏻‍♂️‍ Get the JACK 🕵🏻‍♂️
+			</button>
+		</div>
+
+		<div class="d-flex jc-space-bt cst-mdc-block">
+			<div class="cst-mdc-cards" id="player4">
+				<img src="images/Kaveri.png" class="card-image card-img-bdr" alt="Player 4">
+			</div>
+			<div class="cst-mdc-cards" id="player3">
+				<img src="images/Krishna.png" class="card-image card-img-bdr" alt="Player 3">
+			</div>
+		</div>
+	</main>
+
+	<footer class="cst-bottom-bar">
+		<p class="clr-white m-0">Developed by Krishna 🧑🏻‍💻</p>
+	</footer>
+
+	<script src="script/index.js"></script>
+</body>
+
+</html>

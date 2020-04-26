@@ -47,31 +47,31 @@ body {
 
 @-webkit-keyframes fadeIn {
     0% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #0091EA;
     }
     25% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #00BFA5;
     }
     50% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #00C853;
     }
     75% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #AEEA00;
     }
     80% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #FFD600;
     }
     90% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #FF6D00;   
     }
     100% {
-        opacity: 1;
+        -webkit-opacity: 1;
         border: 10px solid #DD2C00;   
     }
 }
